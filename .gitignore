@@ -1,0 +1,29 @@
+# Dataset files
+dataset/*
+!dataset.README.md
+
+#Model weights and checkpoints
+models/*
+!models/README.md
+*.pt
+*.pth
+*.onnx
+
+#Python Cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+#Virtual environments
+.venv/
+venv/
+
+#Logs and temporary files
+runs/
+logs/
+*.log
+
+#Environment secrets
+.env
+.env.*
+!.env.example
