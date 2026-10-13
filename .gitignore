@@ -1,6 +1,6 @@
 # Dataset files
 dataset/*
-!dataset.README.md
+!dataset/README.md
 
 #Model weights and checkpoints
 models/*
